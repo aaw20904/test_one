@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="express.css" rel="stylesheet" >
+    <link href="auth.css" rel="stylesheet" >
+    
+</head>
+<body>
+<script src="auth.js"></script>
+ <section class="form_container d-flex justify-content-center align-items-center m-0 p-4">
+<form class="needs-validation" action="/enter" method="POST"  novalidate>
+  <div class="d-flex justify-content-center align-items-start flex-column">
+    <label for="validationCustom01" class="form-label my-1">Your name:</label>
+    <input type="text" class="form-control my-1" id="validationCustom01" name="usr_name" value="Mark" required>
+    <div class="valid-feedback my-1">
+      Looks good!
+    </div>
+     <div class="invalid-feedback my-1">
+        Please enter your name!
+      </div>
+  </div>
+  
+  
+  
+
+  <div class="d-flex justify-content-start flex-row align-items-center my-2">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form>
+ </section>
+   
+</body>
+</html>
